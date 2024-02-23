@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>horario1</title>
+    <script src="http://js.leapmotion.com/leap-0.6.3.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <script src="../../js/entrada.js"></script>
+    <script src="../../js/temporizador.js"></script>
+    <link href="../../css/horario_primercuatri.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+
+<body>
+    <header class="header">
+        <img src="../../images/logo-ugr.webp" alt="Logo UGR">
+        <img src="../../images/logo-etsiit.png" alt="Logo ETSIIT">
+    </header>
+
+	<footer class="footer">
+        <p>&copy; 2023 ETSIIT Punto Información. Todos los derechos reservados.</p>
+    </footer>
+    
+    <div id="cursor"></div>
+    <div id="cursord1"></div>
+    <div id="cursord2"></div>
+    
+    <table id="tabla_asignaturas">
+        <tr>
+            <th></th>
+            <th>LUNES</th>
+            <th>MARTES</th>
+            <th>MIERCOLES</th>
+            <th>JUEVES</th>
+            <th>VIERNES</th>
+        </tr>
+
+        <tr>
+            <td>8:30-9:30</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>
+                <div id="contenedores">
+                    <p>NPI(A1)<br><sub>3.1</sub></p>
+                    <p>PL(A2)<br><sub>2.1</sub></p>
+                </div>
+            </td>
+            <td>VC<br><sub>1.2</sub></td>
+        </tr>
+
+        <tr>
+            <td>9:30-10:30</td>
+            <td>SS<br><sub>3.8</sub></td>
+            <td>SS<br><sub>1.1</sub></td>
+            <td>TIC<br><sub>1.5</sub></td>
+            <td>
+                <div id="contenedores">
+                    <p>NPI(A1)<br><sub>3.1</sub></p>
+                    <p>PL(A2)<br><sub>2.1</sub></p>
+                </div>
+            </td>
+            <td>VC<br><sub>1.2</sub></td>
+        </tr>
+
+        <tr>
+            <td>10:30-11:30</td>
+            <td>SS<br><sub>3.8</sub></td>
+            <td>SS<br><sub>1.1</sub></td>
+            <td>TIC<br><sub>1.5</sub></td>
+            <td>NPI<br><sub>1.2</sub></td>
+            <td>
+                <div id="contenedores">
+                    <p>VC(A1)<br><sub>2.1</sub></p>
+                    <p>NPI(A2)<br><sub>3.1</sub></p>
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td>11:30-12:30</td>
+            <td>PTC<br><sub>1.5</sub></td>
+            <td>TIC<br><sub>2.2</sub></td>
+            <td>PTC<br><sub>2.8</sub></td>
+            <td>NPI<br><sub>1.2</sub></td>
+            <td>
+                <div id="contenedores">
+                    <p>VC(A1)<br><sub>2.1</sub></p>
+                    <p>NPI(A2)<br><sub>3.1</sub></p>
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td>12:30-13:30</td>
+            <td>PTC<br><sub>1.5</sub></td>
+            <td>TIC<br><sub>2.2</sub></td>
+            <td>PTC<br><sub>2.8</sub></td>
+            <td>
+                <div id="contenedores">
+                    <p>PL(A1)<br><sub>3.1</sub></p>
+                    <p>VC(A2)<br><sub>2.1</sub></p>
+                </div>
+            </td>
+            <td>PL<br><sub>1.2</sub></td>
+        </tr>
+
+        <tr>
+            <td>13:30-14:30</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>
+                <div id="contenedores">
+                    <p>PL(A1)<br><sub>3.1</sub></p>
+                    <p>VC(A2)<br><sub>2.1</sub></p>
+                </div>
+            </td>
+            <td>PL<br><sub>1.2</sub></td>
+        </tr>
+
+    </table>
+</body>
+
+</html>

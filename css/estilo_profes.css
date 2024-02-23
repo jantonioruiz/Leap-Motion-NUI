@@ -1,0 +1,167 @@
+/* Estilos específicos para el header */
+.header {
+   background-color: #333;
+   color: white;
+   text-align: center;
+   padding: 2px;
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 80px;
+   z-index: 2;
+   display: flex;
+   align-items: center;
+}
+
+.header img {
+   max-height: 75px;
+   margin-left: 1%;
+}
+
+.header img:last-child {
+   max-height: 75px;
+   margin-right: 1%;
+   margin-left: auto;
+}
+
+/* Estilos específicos para el footer */
+.footer {
+   background-color: #333;
+   color: white;
+   text-align: center;
+   padding: 2px;
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   height: 50px;
+   z-index: 2;
+   font-size: 20px;
+   align-items: center;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-size: 4vw;
+  overflow-x: hidden;
+   overflow-y: hidden;
+}
+
+#cursor {
+   position: absolute;
+   width: 30px;
+   height: 30px;
+   border-radius: 50%;
+   background-color: blue;
+   display: none;
+   z-index: 3;
+}
+
+#cursord1 {
+   position: absolute;
+   width: 30px;
+   height: 30px;
+   border-radius: 50%;
+   background-color: red;
+   display: none; 
+   z-index: 3;
+}
+
+#cursord2 {
+   position: absolute;
+   width: 30px;
+   height: 30px;
+   border-radius: 50%;
+   background-color: red;
+   display: none; 
+   z-index: 3;
+}
+
+#foto{
+	width: 7vw;
+	height: 7vw;
+}
+
+body {
+   background-color: beige;
+   background-size: cover;
+   font-family: Arial, sans-serif;
+   margin: 1vw;
+   text-align: center;
+   justify-content: center;
+  	align-items: center;
+	display: grid;
+   place-items: center;
+}
+
+body#menumenu {
+   background-color: beige;
+   background-size: cover;
+   font-family: Arial, sans-serif;
+   margin: 1vw;
+   text-align: center;
+   justify-content: center;
+  	align-items: center;
+	display: grid;
+   place-items: center;
+}
+
+h1.Lunes {
+   font-size: 48; /* Aumenta el tamaño de la fuente */
+   margin-top: 4vw; /* Aumenta el margen superior */
+   margin-bottom: 2vw;
+   background-color: white;
+   padding: 1vw;
+}
+
+table {
+   width: 100%; /* Reduce el ancho de la tabla */
+   margin: 2vw auto 4vw; /* Añade más margen en la parte inferior */
+   border-collapse: collapse;
+   text-align: center;
+   background-color: white;
+   justify-content: center;
+}
+
+th,
+td {
+   border: 1vw solid #ddd;
+   padding: 2vw; /* Aumenta el espacio interno */
+   text-align: center;
+   font-size: 2vw; /* Aumenta el tamaño de la fuente en las celdas */
+}
+
+div.opciones_profesor {
+   border-radius: 0;
+   position: relative;
+   font-size: large;
+   height: 7vh;
+   width: 60vw;
+   background-color: rgb(208, 96, 18);
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   margin-top: 1vw;
+   font-size: 4vw;
+   z-index: 1;
+}
+
+div#salir {
+   margin-top: 1vw;
+   background-color: rgb(208, 96, 18);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   z-index: 1;
+}
+
+div#salir img {
+   width: 100px; 
+   height: 100px;
+   margin-right: 5px; 
+   filter: brightness(0) invert(1); 
+}
